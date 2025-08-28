@@ -55,7 +55,7 @@ public class Speed(
 )
 
 /**
- * Object representing the altitude of the user.
+ * Object representing the altitude above mean sea level of the user.
  *
  * **Note:** These values can be empty depending on the accuracy of the location request.
  *
@@ -64,6 +64,6 @@ public class Speed(
  */
 @Poko
 public class Altitude(
-    public val meters: Double,
+    public val meters: Double?,
     public val accuracy: Float?,
 )
